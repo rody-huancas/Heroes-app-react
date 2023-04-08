@@ -24,7 +24,7 @@ export const SearchPage = () => {
   };
 
   return (
-    <>
+    <div className=" animate__animated animate__fadeInLeft">
       <h2 className="text-2xl font-bold uppercase mb-5 text-center">
         Buscar <span className="text-indigo-500">Héroe </span>
       </h2>
@@ -73,6 +73,6 @@ export const SearchPage = () => {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };

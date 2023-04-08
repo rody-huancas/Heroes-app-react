@@ -15,7 +15,7 @@ export const HeroCard = ({
 
   return (
     <>
-      <div className="h-[250px] flex gap-5 bg-slate-800 text-white rounded-lg mb-5">
+      <div className="h-[250px] flex gap-5 bg-slate-800 text-white rounded-lg mb-5 animate__animated animate__fadeInUp">
         <img src={heroImageUrl} alt={superhero} className="rounded-s-lg" />
         <div className="flex flex-col justify-center gap-2 items-start py-3">
           <h5 className="uppercase font-bold text-red-400">{superhero}</h5>
